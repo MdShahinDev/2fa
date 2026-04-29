@@ -1,5 +1,4 @@
 import { Shield } from "lucide-react";
-import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
@@ -7,8 +6,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo Section */}
-            <Link
-              to="/"
+            <p
               className="flex items-center gap-2 cursor-pointer group shrink-0"
             >
               <div className="p-2 bg-primary/10 rounded-xl group-hover:bg-primary/20 transition-colors duration-300">
@@ -17,7 +15,7 @@ export default function Navbar() {
               <span className="font-bold text-2xl tracking-tight text-text group-hover:text-white transition-colors duration-300">
                 KeyGen<span className="text-primary">.</span>
               </span>
-            </Link>
+            </p>
 
             {/* Desktop Actions */}
             <div className="flex items-center gap-4 shrink-0">
