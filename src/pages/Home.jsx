@@ -3,7 +3,7 @@ import CodeGenerator from '../components/CodeGenerator';
 
 export default function Home() {
   return (
-    <main className="flex-1 flex items-center justify-center p-6 sm:p-12 relative overflow-hidden">
+    <main className="w-full flex items-center justify-center p-6 sm:p-12 relative overflow-hidden py-20">
       
       {/* Abstract Background Elements */}
       <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary/10 blur-[120px] pointer-events-none"></div>
