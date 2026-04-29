@@ -9,9 +9,10 @@ function App() {
     <Router>
       <div className="min-h-screen bg-background text-text flex flex-col">
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route index element={<Home />} />
-        </Routes>
+        </Routes> */}
+        <Home/>
         <Footer />
       </div>
     </Router>
