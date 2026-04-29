@@ -6,16 +6,12 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
+ 
       <div className="min-h-screen bg-background text-text flex flex-col">
         <Navbar />
-        {/* <Routes>
-          <Route index element={<Home />} />
-        </Routes> */}
         <Home/>
         <Footer />
       </div>
-    </Router>
   );
 }
 
